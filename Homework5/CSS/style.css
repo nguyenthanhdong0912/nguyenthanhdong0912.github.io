@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  header,
+  section,
+  aside,
+  footer {
+    margin: 0 1.5% 24px 1.5%;
+  }
+  
+  .container {
+    margin: 0 50px;
+  }
+  
+  .header {
+    background: #2db34a;
+    text-align: center;
+    padding: 24px 15px;
+    color: #fff;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+  
+  .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .section {
+    width: calc(100% / 3);
+    background: #2db34a;
+    border-radius: 6px;
+    color: #fff;
+    padding: 24px 15px;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .footer {
+    background: #2db34a;
+    padding: 24px 15px;
+    text-align: center;
+    color: #fff;
+    border-radius: 6px;
+  }
+  

@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 2%;
+    position: sticky;
+    top: 0;
+}
+
+.header .mindx a {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+}
+
+.header ul a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.header .login {
+    padding: 10px 20px;
+    background-color: blue;
+}
+
+.header .signup {
+    padding: 10px 20px;
+    border: 1px solid blue;
+}
+
+.about, .myproject, .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.about, .contact {
+    background: linear-gradient( #d0daff 5%, #cad5ff 6%, #6283fe 37%, #e2172d 87%);
+}
+
+.about .aboutheading {
+    color: #fff;
+    font-size: 70px;
+}
+
+.about .abouttitle {
+    font-style: italic;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.myproject {
+    background: linear-gradient(90deg, #77e5d6 20%, #89cbdd 41%, #9bb1e4 95%);
+}
+
+.myproject .sample {
+    padding: 10px;
+    width: 33.333%;
+}
+
+.myproject .sampleimg {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 1px 3px 0px rgb(51 51 51 / 78%);
+}
+
+.myproject .samplename {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.myproject .myprojectheading {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.myproject h1 {
+    color: #fff;
+    font-size: 40px;
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+.myproject img {
+    width: 100%;
+    display: block;
+}
+
+.contact .contact-social {
+    display: flex;
+    justify-content: space-between;
+    gap: 86px;
+    margin-top: 80px;
+}
+
+.contact .contact-heading {
+    color: #fff;
+    font-size: 60px;
+}
+
+.contact .contact-title {
+    font-style: italic;
+    color: #fff;
+    font-size: 20px;
+}
+
+.contact a {
+    color: #fff;
+    text-decoration: none;
+    font-size: larger;
+}
+
+footer {
+    background-color: black;
+    padding: 35px 0;
+}
+
+.footer {
+    color: #fff;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.scrolltop {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.scrolltop a {
+    color: rgb(43, 76, 224);
+}
