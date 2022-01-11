@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:linear-gradient(to right, #f5f2d2,  #f7c12e) ;
+    font-family: monospace;
+    padding-bottom: 40px;
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    background-color: rgb(56, 85, 114) ;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding:20px;
+}
+
+a{
+    text-decoration: none;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.click{
+    margin-left: 15px;
+    padding: 4px;
+    border-radius: 10px;
+    background-color:#5BBD72 ;
+    color: white;
+    cursor: not-allowed;
+}
+
+li{
+    margin: 15px;
+}
